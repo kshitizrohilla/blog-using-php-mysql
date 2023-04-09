@@ -52,6 +52,6 @@ C:
 - More features like post deletion, adding images, editing existing post and more will be addded soon.
 
 ## Screenshots
-![blog-using-php-mysql](https://github.com/kshitizrohilla/login-signup-using-php-mysql/blob/main/media/capture1.jpg?raw=true)
-![blog-using-php-mysql](https://github.com/kshitizrohilla/login-signup-using-php-mysql/blob/main/media/capture2.jpg?raw=true)
-![blog-using-php-mysql](https://github.com/kshitizrohilla/login-signup-using-php-mysql/blob/main/media/capture3.jpg?raw=true)
+![blog-using-php-mysql](https://raw.githubusercontent.com/kshitizrohilla/blog-using-php-mysql/main/media/capture1.jpg)
+![blog-using-php-mysql](https://raw.githubusercontent.com/kshitizrohilla/blog-using-php-mysql/main/media/capture2.JPG)
+![blog-using-php-mysql](https://raw.githubusercontent.com/kshitizrohilla/blog-using-php-mysql/main/media/capture3.jpg)
