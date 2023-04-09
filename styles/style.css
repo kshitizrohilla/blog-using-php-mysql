@@ -1,23 +1,82 @@
-h1
+body
+{
+  margin: 0;
+}
+
+.top-bar
+{
+  background: #252525;
+  color: #f5f5f5;
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+#topBarTitle
 {
   font-family: "Segoe UI", sans-serif;
   text-align: center;
+  margin: 0;
+  font-size: 30px;
+}
+
+#dateLabel
+{
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bold;
+}
+
+.writing-section
+{
+  margin: 10px;
 }
 
 form
 {
-  text-align: center;
   -webkit-tap-highlight-color: transparent;
+  text-align: center;
 }
 
 #blogTitle
 {
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Roboto", sans-serif;
   outline: none;
+  border: 1.5px solid lightgrey;
+  color: #333;
+  font-size: 20px;
+  width: 37.5%;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 5px 5px;
 }
 
 #blogPara
 {
-  font-family: "Verdana", sans-serif;
+  font-family: "Roboto", sans-serif;
   outline: none;
+  border: 1.5px solid lightgrey;
+  color: #333;
+  resize: none;
+  font-size: 20px;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+#blogDate
+{
+  border: none;
+  outline: none;
+  font-size: 1em;
+}
+
+#saveBtn
+{
+  border: none;
+  background: dodgerblue;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  cursor: pointer;
 }

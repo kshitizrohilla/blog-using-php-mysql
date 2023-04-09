@@ -7,15 +7,30 @@
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
-    <div class="top-bar">
-      <h1>Blog</h1>
-    </div>
-    <form action="blog_post_process.php">
-      <input id="blogTitle" type="text" placeholder="Blog Title...">
-      <br><br>
-      <textarea id="blogPara" cols="50" rows="10" type="text" placeholder="Blog Paragraph..."></textarea>
-      <br>
-      <button type="submit">Save</button>
-    </form>
+
+      <div class="top-bar">
+        <span id="topBarTitle">Blog | New Post</span>
+      </div>
+
+      <div class="writing-section">
+
+        <form action="blog_post_process.php" method="POST">
+          <input id="blogTitle" name="blogtitle" type="text" placeholder="Blog Title..." autocomplete="off">
+          <br>
+          
+          <span id="dateLabel">Date: </span>
+          
+          <input id="blogDate" name="blogdate" readonly></input>
+          <br>
+          
+          <textarea id="blogPara" name="blogpara" cols="75" rows="10" type="text" placeholder="Blog Paragraph..." autocomplete="off"></textarea>
+          <br>
+          
+          <button id="saveBtn" type="submit">Save</button>
+        </form>
+        
+      </div>
+
+    <script src="scripts/script.js"></script>
   </body>
 </html>
