@@ -1,0 +1,23 @@
+h1
+{
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+}
+
+form
+{
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#blogTitle
+{
+  font-family: "Segoe UI", sans-serif;
+  outline: none;
+}
+
+#blogPara
+{
+  font-family: "Verdana", sans-serif;
+  outline: none;
+}
