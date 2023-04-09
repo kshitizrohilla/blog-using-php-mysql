@@ -75,8 +75,33 @@ form
   border: none;
   background: dodgerblue;
   color: #fff;
-  font-size: 20px;
+  font-size: 17.5px;
   padding: 5px 25px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.all-posts-container
+{
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.post-container
+{
+  padding: 5px 5px;
+  margin-top: 5px;
+  margin-top: 5px;
+}
+
+.post-container:nth-child(even)
+{
+  background: #d3d3d3;
+}
+
+#displayTitle
+{
+  font-weight: bold;
 }
