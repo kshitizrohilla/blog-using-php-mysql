@@ -1,5 +1,5 @@
 # A Simple Blog Using PHP And MySQL
-A simple blog made using PHP on server side and MySQL for storing blog posts consisting of post title, post date and post paragraph.
+A simple blog made using PHP on server side and MySQL for storing blog posts consisting of post title, post date, post images and post paragraph.
 
 	
 ## Setup
@@ -17,7 +17,9 @@ C:
                |----styles
                     |----style.css
                |----media
+               |----images
                |----scripts
+                    |----script.js
                |----blog_post_process.php
                |----index.html
                |----index.php
@@ -49,7 +51,7 @@ C:
 
 - Major feature of user account creation and displaying dynamic content for each user is pending.
 
-- More features like post deletion, adding images, editing existing post and more will be addded soon.
+- More features like post deletion, editing existing post and more will be addded soon.
 
 ## Screenshots
 ![blog-using-php-mysql](https://raw.githubusercontent.com/kshitizrohilla/blog-using-php-mysql/main/media/capture1.jpg)
