@@ -1,8 +1,12 @@
 # A Simple Blog Using PHP And MySQL
-A simple blog made using PHP on server side and MySQL for storing blog posts consisting of post title, post date, post images and post paragraph.
+
+This simple blog application provides a user-friendly platform for bloggers to publish their posts online. It is built using PHP on the server-side and uses MySQL for storing blog posts. The application allows bloggers to write blog posts, add images and publish them on the blog.
+
+This application can be used as a starting point for developers who want to build a blog application using PHP and MySQL. 
 
 	
 ## Setup
+
 - Start the Apache and MySQL server from the XAMPP control panel.
 
 - Extract the downloaded git project folder in the htdocs folder(present in the XAMPP folder). Generally during installation the XAMPP is installed in the C: Drive of your computer.
@@ -45,6 +49,7 @@ C:
 - On the `index.php` page all the created posts will be displayed. There is also a `Write a New Post` button on the bottom of the page from where you will be redirected to post creation page `index.html`.
 
 ## Features
+
 - On the home page `index.php` all the created posts are displayed.
 
 - Current date and time will be automatically inserted into the post during the time of post creation.
@@ -54,6 +59,7 @@ C:
 - More features like post deletion, editing existing post and more will be addded soon.
 
 ## Screenshots
+
 ![blog-using-php-mysql](https://raw.githubusercontent.com/kshitizrohilla/blog-using-php-mysql/main/media/screenshot1.jpg)
 ![blog-using-php-mysql](https://raw.githubusercontent.com/kshitizrohilla/blog-using-php-mysql/main/media/screenshot2.jpg)
 ![blog-using-php-mysql](https://raw.githubusercontent.com/kshitizrohilla/blog-using-php-mysql/main/media/screenshot3.jpg)
